@@ -1,9 +1,17 @@
 <?php
-class APPSystem{
 
+namespace coding\app\system;
+
+class AppSystem{
+public Request $request;
     function __construct(){
 
-        echo "AppSystem";
+        $this->request=new Request();
+    
+    }
+    public function start(){
+
+        $this->request->checkRequest();
     }
 }
 ?>

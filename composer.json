@@ -1,11 +1,11 @@
 {
-  
-  "autoload": {
-    "psr-4": {
-      "coding\\": "./"
+
+    "autoload": {
+        "psr-4": {
+            "coding\\": "./"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
     }
-  },
-  "require": {
-    "vlucas/phpdotenv": "^5.4"
-  }
 }
